@@ -1,39 +1,58 @@
-
 .meus-filmes{
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meus-filmes h1{
+  margin-bottom: 14px;
+}
   
-  .meus-filmes h1{
-    margin-bottom: 14px;
-  }
+.meus-filmes span{
+  font-size: 18px;
+}
   
-  .meus-filmes span{
-    font-size: 18px;
-  }
+.meus-filmes ul{
+  width: 720px;
+}
+
+.meus-filmes ul li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
   
-  .meus-filmes ul{
-    width: 720px;
-  }
+.meus-filmes div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  .meus-filmes ul li{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 14px;
-  }
-  
-  .meus-filmes div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .meus-filmes div a {
-    text-decoration: none;
-    color: #116feb;
-    margin-right: 14px;
-  }
+.meus-filmes div a {
+  text-decoration: none;
+  color: #da0606;
+  margin-right: 14px;
+}
+
+.meus-filmes div a:hover{
+  color: #000000;
+}
+
+.meus-filmes div button{
+  background-color: #000000;
+  color: #da0606;
+  padding: 3.5px 3.5px;
+}
+
+.meus-filmes div button:hover{
+  background-color: #da0606;
+  color: #000000;
+  padding: 3.5px 3.5px;
+}
+
+span:hover {
+  color: #da0606;
+}
