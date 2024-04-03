@@ -40,7 +40,7 @@ function Filme(){
 
 
   function salvarFilme(){
-    const minhaLista = localStorage.getItem("@primeflix");
+    const minhaLista = localStorage.getItem("@my-prime-flix");
 
     let filmesSalvos = JSON.parse(minhaLista) || [];
 
@@ -52,7 +52,7 @@ function Filme(){
     }
 
     filmesSalvos.push(filme);
-    localStorage.setItem("@primeflix", JSON.stringify(filmesSalvos));
+    localStorage.setItem("@my-prime-flix", JSON.stringify(filmesSalvos));
     toast.success("Filme salvo com sucesso!")
 
   }
