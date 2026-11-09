@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #da0606;
+    color: #000000;
+    padding: 3em;
+    text-align: center;
+    height: 60px;
+}
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social_list li{
+    margin: 0 1em;
+}
+
+.social_list li:hover{
+    color: #FFF;
+}
+
+.social_list svg{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.copy_right{
+    text-align: left;
+    margin-top: 2em;
+}
+
+.copy_right span{
+    font-weight: bold;
+    color: #000000;
+}
+
+.copy_right span:hover{
+    font-weight: bold;
+    color: #FFF;
+}
+
+p{
+    text-align: right;
+}
